@@ -1,0 +1,9 @@
+{
+    "name": "Anime wallpaper",
+    "description": "random anime wallpaper",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_script": {
+        "js": ["sources/js/background.js"]
+    }
+}
