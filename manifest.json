@@ -3,7 +3,8 @@
     "description": "random anime wallpaper",
     "version": "1.0",
     "manifest_version": 3,
-    "content_script": {
-        "js": ["sources/js/background.js"]
-    }
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    },
+    "permissions": ["storage","scripting"]
 }
